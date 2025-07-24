@@ -1,9 +1,9 @@
 ## Không nén
-| Field Name  | Field Type	      | Description                         |
-|:------------|:-----------------|:------------------------------------|
-| `Length`    | `	VarInt`        | Length of Packet ID + Data          |
-| `Packet ID` | `	VarInt`        | Tương ứng với protocol_id từ server |
-| `Data`      | `Byte Array`     | Dữ liệu bên trong packet            |
+| Field Name  | Field Type	    | Description                         |
+|:------------|:---------------|:------------------------------------|
+| `Length`    | `VarInt`       | Length of Packet ID + Data          |
+| `Packet ID` | `VarInt`       | Tương ứng với protocol_id từ server |
+| `Data`      | `Byte Array`   | Dữ liệu bên trong packet            |
 
 ## Có nén
 
